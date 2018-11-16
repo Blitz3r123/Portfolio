@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.name-banner{
+	/*outline: 1px solid black;*/
+	/*background-color: red;*/
+	width: 98vw;
+	height: 60vh;
+	text-align: center;
+	font-family: courier;
+}
+.name-banner h1{
+	font-size: 10em;
+	text-align: center;
+	margin-top: 25vh;
+	color: #007bff;
+}
+.name-banner p{
+	font-size: 1.5em;
+	color: #007bff;
+}
+.introduction-banner{
+	width: 98vw;
+	height: auto;
+	background-color: #007bff;
+	text-align: center;
+	padding: 5vh 5vw 5vh 5vw;
+}
+.introduction-banner p{
+	color: white;
+	font-size: 2em;
+}
+.introduction-banner ul{
+	color: white;
+}
+.list-item{
+	width: 30vw;
+	margin-left: 30vw;
+	font-family: courier;
+}
+.list-group{
+	width: 30vw;
+	margin-left: 30vw;
+}
+.list-group a{
+	background-color: #007bff;
+	color: white;
+	font-size: 1.5em;
+	transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+}

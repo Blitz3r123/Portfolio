@@ -1,0 +1,21 @@
+.nav-bar{
+	/*outline: 1px solid black;*/
+	background-color: #007bff;
+	height: 10vh;
+	width: 98vw;
+	/*position: fixed;*/
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.nav-bar a{
+	/*outline: 1px solid black;*/
+	line-height: 10vh;
+	font-size: 1.5em;
+	margin: 0 3vw 0 3vw;
+	padding-bottom: 2vh;
+	color: white;
+}
+.nav-bar a:hover{
+	text-decoration: none;
+	border-bottom: 2px solid white;
+}
