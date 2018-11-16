@@ -6,14 +6,22 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<!-- Custom CSS -->
 		<link rel="stylesheet" href="index-style.css">
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Abel|Inconsolata|Open+Sans+Condensed:300" rel="stylesheet">
 		<style>
+			*{
+				margin: 0;
+				padding: 0;
+				font-family: 'Open Sans Condensed', sans-serif;
+			}
 			.nav-bar{
 				/*outline: 1px solid black;*/
 				background-color: #007bff;
 				height: 10vh;
-				width: 100vw;
-				position: fixed;
+				width: 98vw;
+				/*position: fixed;*/
 				text-align: center;
+				font-family: 'Open Sans Condensed', sans-serif;
 			}
 			.nav-bar a{
 				/*outline: 1px solid black;*/
@@ -27,6 +35,35 @@
 				text-decoration: none;
 				border-bottom: 2px solid white;
 			}
+			.name-banner{
+				/*outline: 1px solid black;*/
+				/*background-color: red;*/
+				width: 98vw;
+				height: 60vh;
+				text-align: center;
+				font-family: courier;
+			}
+			.name-banner h1{
+				font-size: 10em;
+				text-align: center;
+				margin-top: 25vh;
+				color: #007bff;
+			}
+			.name-banner p{
+				font-size: 1.5em;
+				color: #007bff;
+			}
+			.introduction-banner{
+				width: 98vw;
+				height: auto;
+				background-color: #007bff;
+				text-align: center;
+				padding: 5vh 5vw 5vh 5vw;
+			}
+			.introduction-banner p{
+				color: white;
+				font-size: 2em;
+			}
 		</style>
 	</head>
 	<body>
@@ -36,6 +73,25 @@
 			<a href="index.html" id="home-link">Home</a>
 			<a href="projects.html">Projects</a>
 			<a href="education.html">Education</a>
+		</div>
+		
+		<div class="name-banner">
+			<h1>KALEEM</h1>
+			<p>...that's my name!</p>		
+		</div>
+		
+		<div class="introduction-banner">
+			<p class="lead">
+				I am a very passionate computer science student studying at City University of London.
+				<br>
+				Here are my recent projects:
+				<br>
+				<ul>
+					<li><a href="mydiary.html">MyDiary</a></li>
+					<li><a href="bookmarker.html">Bookmarker</a></li>
+					<li><a href="universityNotes.html"></a>University Notes</li>
+				</ul>
+			</p>
 		</div>
 
 		<!-- Bootstrap + its dependencies -->
