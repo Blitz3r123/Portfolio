@@ -1,0 +1,72 @@
+doctype html
+html
+	head
+		title All About Kaleem
+		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+		link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css", integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm", crossorigin="anonymous")
+		// Custom CSS
+		link(rel="stylesheet", href="./../css/index-style.css")
+		link(rel="stylesheet", href="./../css/nav-bar-style.css")
+		//Fonts
+		link(href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Abel|Inconsolata|Open+Sans+Condensed:300", rel="stylesheet")
+	body
+		div.nav-bar
+			a(href="life.html") Life
+			a(href="skills.html") Skills
+			a(href="index.html") Home
+			a(href="projects.html") Projects
+			a(href="education.html") Education
+
+		div.name-banner
+			h1 KALEEM
+			p ...is my name!
+
+		div.introduction-banner
+			h1(style="font-size: 4em; color: white;") WELCOME TO MY WEBSITE!
+			p.lead I am a very passionate, always improving and fast learning computer science student currently studying at City University of London. I love working on cool new technologies to create amazing solutions or to implement shortcuts to long and boring tasks. Oh and I am super interested in artificial intelligence!
+
+		div.project-title-banner
+			h1 HERE ARE SOME OF MY AWESOME PROJECTS
+
+		div.projects-banner
+			div.project#bookmarker
+				div.project-description
+					h3 Bookmarker
+					p This is a web application that I created to add bookmarks for any book. Totally useless but I learned a lot from it!
+				div.project-links
+					div.project-link.link#bookmarker-link
+						ion-icon(name="bookmark", class="icon")
+						a(href="project/bookmarker.html") Try it out!
+					div.project-github-link.link#bookmarker-github-link
+						ion-icon(name="logo-github", class="icon")
+						a(href="https://github.com/Blitz3r123/bookmarker") GitHub Page
+			div.project-reverse#mydiary
+				div.project-description
+					h3 MyDiary
+					p I created this website to learn how to use PHP and SQL. More useful that Bookmarker and gave even more experience than it!
+				div.project-links
+					div.project-link.link#mydiary-link
+						ion-icon(name="book", class="icon")
+						a(href="project/mydiary.html") Try it out!
+					div.project-github-link.link#mydiary-github-link
+						ion-icon(name="logo-github", class="icon")
+						a(href="https://github.com/Blitz3r123/mydiary") GitHub Page
+			div.project#uninotes
+				div.project-description
+					h3 UniNotes
+					p I created this in my second year of university as a way to gather all the information and put it in a place that is easily accesible and easy to read and revise.
+				div.project-links
+					div.project-link.link#uninotes-link
+						ion-icon(name="paper", class="icon")
+						a(href="https://university-notes.herokuapp.com/") Try it out!
+					div.project-github-link.link#uninotes-github-link
+						ion-icon(name="logo-github", class="icon")
+						a(href="https://github.com/Blitz3r123/bookmarker") GitHub Page
+
+
+		// Bootstrap + it's dependencies
+		script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js", integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN", crossorigin="anonymous")
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js", integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q", crossorigin="anonymous")
+		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js", integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl", crossorigin="anonymous")
+		script(src="https://unpkg.com/ionicons@4.5.0/dist/ionicons.js")
